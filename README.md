@@ -15,6 +15,15 @@ https://book.getfoundry.sh/
 
 ## Usage
 
+## command
+
+- deploy NFT
+forge script script/DeployMyNFT.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
+
+
+- mint NFT
+forge script script/MintNFT.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
+
 ### Build
 
 ```shell
