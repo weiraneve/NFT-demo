@@ -20,6 +20,7 @@ https://book.getfoundry.sh/
 - deploy NFT
 forge script script/DeployMyNFT.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
 
+当合约部署之后，把成功部署返回的hash地址值，填入MintNFT.s.sol文件的<YOUR_DEPLOYED_CONTRACT_ADDRESS>，然后执行铸造命令
 
 - mint NFT
 forge script script/MintNFT.s.sol --rpc-url $RPC_URL --private-key $PRIVATE_KEY --broadcast
